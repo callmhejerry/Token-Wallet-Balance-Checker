@@ -3,7 +3,7 @@
 pragma solidity ^0.8.18;
 import {IERC20} from "../lib/forge-std/src/interfaces/IERC20.sol";
 
-contract TokenWalletChecker {
+contract TokenWalletBalanceChecker {
     error InvalidAddress(address account);
     struct TokenBalance {
         uint balance;
